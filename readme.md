@@ -8,13 +8,13 @@ This image content is under RedHat licencing.
 
 ## Build
 
-    docker build -t jaromirecek/jboss-fuse-dev:6.2.1 .
+    docker build -t andreaschiona/jboss-fuse-docker .
 
 ## Usage
 
 You can then run a Fuse server with the following command:
 
-    docker run -it jaromirecek/jboss-fuse-dev:6.2.1 bin/fuse
+    docker run -it andreaschiona/jboss-fuse-docker bin/fuse
 
 Note that the web console will not be accessible since we have not yet defined users that can log into it
 and have not exposed the web console port on the docker host.
