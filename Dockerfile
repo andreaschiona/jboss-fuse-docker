@@ -32,7 +32,7 @@ VOLUME /opt/jboss/jboss-fuse/bin
 VOLUME /opt/jboss/jboss-fuse/etc
 VOLUME /opt/jboss/jboss-fuse/data
 VOLUME /opt/jboss/jboss-fuse/deploy
-VOLUME /home/root/.m2
+# VOLUME /home/root/.m2
 
 #ADD custom user properties.
 
