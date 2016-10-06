@@ -1,7 +1,7 @@
 # Use latest jboss/base-jdk:8 image as the base
 FROM jboss/base-jdk:8
 
-MAINTAINER Jaromír Juren <jaromir.juren@gmail.com>
+MAINTAINER Andrea Schiona <andrea_schiona@mytria.it>
 
 # Set the FUSE_VERSION env variable
 ENV FUSE_VERSION 6.2.1.redhat-086
@@ -32,7 +32,7 @@ VOLUME /opt/jboss/jboss-fuse/bin
 VOLUME /opt/jboss/jboss-fuse/etc
 VOLUME /opt/jboss/jboss-fuse/data
 VOLUME /opt/jboss/jboss-fuse/deploy
-VOLUME /home/fuse/.m2
+VOLUME /home/root/.m2
 
 #ADD custom user properties.
 
