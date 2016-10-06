@@ -1,4 +1,4 @@
 # Use latest jboss/base-jdk:8 image as the base
-FROM jaromirecek/jboss-fuse-dev:6.2.1
+FROM jaromirecek/jboss-fuse-dev:latest
 
 MAINTAINER Andrea Schiona <andrea_schiona@mytria.it>
